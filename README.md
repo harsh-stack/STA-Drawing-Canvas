@@ -1,4 +1,4 @@
-## Interactive Drawing Canvas WebApp (STA Final Project)
+# Interactive Drawing Canvas WebApp (STA Final Project)
 
 
 Software Testing & Automation (STA) Final Project at University of Massachusetts Dartmouth. Full-stack web application featuring interactive HTML5 canvas drawing, localStorage theme persistence, responsive toolbar, and comprehensive Selenium/Mocha test automation suite.
@@ -8,7 +8,7 @@ Team: Harsh Malviya (02197137) + Rohit Shirkeli (02186822)
 
 Live Demo: https://harsh-stack.github.io/WebApp
 
-🎨 Features
+## 🎨 Features
 Feature	Description
 Drawing Canvas	HTML5 <canvas> with mouse/touch support, variable brush size (1-20px)
 Color Picker	Real-time color selection + preview
@@ -18,7 +18,7 @@ Responsive Design	Mobile-first CSS: touch drawing + adaptive layout
 Navigation	Home/About/Gallery pages with sticky navbar
 Persistence	Canvas themes auto-save/load across sessions 
 ​
-# 🧪 Test Automation Coverage
+## 🧪 Test Automation Coverage
 100% Feature Coverage with dual testing approach:
 
 1. Selenium E2E Tests (defaultSuite.spec.js)
@@ -47,7 +47,7 @@ Auto-generates unit tests + GitHub Actions YAML
 
 AST-based code analysis for function coverage
 
-# 📁 Repository Structure
+## 📁 Repository Structure
 text
 WebApp/
 ├── 📄 README.md                    # This file
@@ -70,27 +70,27 @@ WebApp/
 └── 📱 screenshots/ (optional)
     ├── drawing-demo.png
     └── tests-passing.png
-# 🚀 Quick Start & Deployment
+## 🚀 Quick Start & Deployment
 Local Development
 bash
-# Clone
+## Clone
 git clone https://github.com/harsh-stack/WebApp.git
 cd WebApp
 
-# Install (optional, static files)
+## Install (optional, static files)
 npm install
 
-# Live server
+## Live server
 npx live-server    # or open index.html directly
 
-# Run tests
+## Run tests
 npx mocha defaultSuite.spec.js
 Production Deploy (GitHub Pages)
 Settings → Pages → Deploy from main
 
 Live: https://harsh-stack.github.io/WebApp
 
-# 🛠️ Tech Stack & Architecture
+## 🛠️ Tech Stack & Architecture
 text
 Frontend: Vanilla JS + HTML5 Canvas API + CSS Grid/Flexbox
 State: localStorage (themes, brush settings)
@@ -99,7 +99,7 @@ Automation: GitHub Actions-ready (test_tool.py)
 Deployment: Static hosting (GitHub Pages/Netlify/Vercel)
 No frameworks = lightweight (60KB total) + maximum learning.
 
-# 📱 Responsive Breakpoints
+## 📱 Responsive Breakpoints
 Screen	Features
 Mobile (<768px)	Touch drawing, stacked toolbar
 Tablet (768-1024px)	Horizontal toolbar
@@ -111,7 +111,7 @@ Desktop (>1024px)	Full canvas + sidebar preview
 ✅ Responsive design: CSS media queries + flexible layouts
 ✅ CI/CD ready: Automated testing pipeline
 
-📈 Demo Screenshots
+## 📈 Demo Screenshots
 Drawing Interface
 
 Toolbar Controls
@@ -120,7 +120,7 @@ Mocha Tests Passing
 
 Mobile View
 
-# 👥 Team
+## 👥 Team
 Name	Enrollment ID
 Harsh Malviya	02197137
 Rohit Shirkeli	02186822
@@ -128,14 +128,14 @@ Course: Software Testing & Automation Final Project
 Institution: University of Massachusetts Dartmouth
 ​
 
-# 📄 License & Citation
+## 📄 License & Citation
 text
 Malviya, H., & Shirkeli, R. (2025). Interactive Drawing Canvas WebApp 
 with Selenium Test Automation. UMass Dartmouth STA Final Project.
 GitHub: https://github.com/harsh-stack/WebApp
 License: MIT
-# 💼 Author
+## 💼 Author
 Harsh Malviya
 MS Data Science Candidate | Full-Stack + Testing
-🌐 Portfolio | 🐙 GitHub
+🌐 Portfolio: https://harshmalviya.com/ | 🐙 GitHub
 
