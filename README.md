@@ -1,4 +1,4 @@
-# Interactive Drawing Canvas WebApp (STA Final Project)
+# Interactive Drawing Canvas STA-Drawing-Canvas (STA Final Project)
 
 
 Software Testing & Automation (STA) Final Project at University of Massachusetts Dartmouth. Full-stack web application featuring interactive HTML5 canvas drawing, localStorage theme persistence, responsive toolbar, and comprehensive Selenium/Mocha test automation suite.
@@ -6,7 +6,8 @@ Software Testing & Automation (STA) Final Project at University of Massachusetts
 Team: Harsh Malviya (02197137) + Rohit Shirkeli (02186822)
 ​
 
-Live Demo: https://harsh-stack.github.io/WebApp
+Live Demo: https://harsh-stack.github.io/STA-Drawing-Canvas
+
 
 ## 🎨 Features
 Feature	Description
@@ -49,7 +50,7 @@ AST-based code analysis for function coverage
 
 ## 📁 Repository Structure
 text
-WebApp/
+STA-Drawing-Canvas/
 ├── 📄 README.md                    # This file
 ├── 🖼️ index.html                   # Main drawing interface
 ├── 👥 about.html                    # Team + project info
