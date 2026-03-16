@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+
+    <div class="container gallery-container">
+        <h1>Gallery</h1>
+        <p>Saved artwork will appear here:</p>
+        <div id="galleryContainer"></div>
+    </div>
+
+    <script>
+        const galleryContainer = document.getElementById('galleryContainer');
+        const savedCanvas = localStorage.getItem('savedCanvas'); // Retrieve saved Data URL
+        
+        if (savedCanvas) {
+            const img = new Image(); // Create an image element
+            img.src = savedCanvas; // Set its source to the saved Data URL
+            img.classList.add('gallery-image'); // Apply styling for gallery images
+            galleryContainer.appendChild(img); // Add it to the gallery container
+        } else {
+            galleryContainer.textContent = 'No artwork saved yet!'; // Show error message
+        }
+    </script>
+</body>
+</html>

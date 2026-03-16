@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Canvas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+    
+    <div class="toolbar">
+        <button id="clearButton">Clear Canvas</button>
+        <input type="color" id="colorPicker" value="#000000">
+        <input type="range" id="brushSize" min="1" max="20" value="5">
+    </div>
+
+    <canvas id="drawingCanvas"></canvas>
+
+    <div id="aboutUsContainer">
+        <button id="aboutUsButton">About Us</button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('aboutUsButton').addEventListener('click', () => {
+            window.location.href = 'about.html';
+        });
+    </script>
+</body>
+</html>
